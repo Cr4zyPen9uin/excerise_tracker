@@ -1,0 +1,126 @@
+.home-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.list-container {
+    width: 80%;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.list-item {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    flex-direction: column;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 80%;
+    flex-direction: column;
+}
+
+.form-item {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.input-field {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 8px;
+    flex: 1;
+    width: calc(100% - 100px);
+}
+
+.button-container {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.submit {
+    background-color: #4CAF50;
+}
+
+.cancel {
+    background-color: #f44336;
+}
+.dropdown-container {
+    position: relative;
+    width: 100%;
+}
+
+.dropdown-select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 8px;
+    flex: 1;
+    width: calc(100% - 100px);
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 90px);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 10;
+    flex-direction: column;
+}
+
+.dropdown-option {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-option:last-child {
+    border-bottom: none;
+}
